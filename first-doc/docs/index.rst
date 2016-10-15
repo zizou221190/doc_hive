@@ -17,6 +17,7 @@ Welcome to Hive's documentation!
    :maxdepth: 2
 
    architecture
+   architecture
    divers-fichiers-en-source
 
 
