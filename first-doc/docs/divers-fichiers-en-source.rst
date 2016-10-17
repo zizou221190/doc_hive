@@ -30,14 +30,14 @@ To use the SerDe, specify the fully qualified class name `org.apache.hive.hcatal
 
 ** Create table, specify CSV properies**
 
-.. code-block:: json
+.. code-block:: yaml
 
     
-CREATE TABLE my_table(a string, b bigint, ...)
+         CREATE TABLE my_table(a string, b bigint, ...)
 
-ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
+         ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
 
-STORED AS TEXTFILE;
+         STORED AS TEXTFILE;
 
 
 
