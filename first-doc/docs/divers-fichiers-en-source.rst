@@ -30,7 +30,7 @@ To use the SerDe, specify the fully qualified class name ``org.apache.hive.hcata
 
 **Create table, specify CSV properies**
 
-.. code-block:: yaml
+.. code-block:: json
 
     
          CREATE TABLE my_table(a string, b bigint, ...)
