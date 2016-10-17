@@ -1,8 +1,6 @@
 Divers fichiers en source
 =========================
 
-* :ref:`json`
-* :ref:`xml`
 
 .. contents::
    :local:
@@ -25,12 +23,25 @@ Les differents fichiers sources
 
 
 
-.. _in-json:
 JSON
 ^^^^
 
+To use the SerDe, specify the fully qualified class name `org.apache.hive.hcatalog.data.JsonSerDe`, for example:
 
-.. _in-xml:
+** Create table, specify CSV properies**
+
+.. code-block:: json
+
+    
+CREATE TABLE my_table(a string, b bigint, ...)
+
+ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'
+
+STORED AS TEXTFILE;
+
+
+
+
 XML
 ^^^
 
