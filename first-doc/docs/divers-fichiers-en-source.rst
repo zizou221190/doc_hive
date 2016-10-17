@@ -1,8 +1,8 @@
 Divers fichiers en source
 =========================
 
-* :ref:`in-json`
-* :ref:`in-xml`
+* :ref:`json`
+* :ref:`xml`
 
 L'utilisation du serde
 ----------------------
