@@ -4,6 +4,10 @@ Divers fichiers en source
 * :ref:`json`
 * :ref:`xml`
 
+.. contents::
+   :local:
+   :depth: 1
+
 L'utilisation du serde
 ----------------------
 
