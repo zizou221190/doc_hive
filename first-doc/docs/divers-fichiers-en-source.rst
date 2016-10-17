@@ -6,7 +6,7 @@ Divers fichiers en source
 
 .. contents::
    :local:
-   :depth: 1
+   :depth: 2
 
 L'utilisation du serde
 ----------------------
