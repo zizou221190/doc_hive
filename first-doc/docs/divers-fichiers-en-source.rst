@@ -26,9 +26,9 @@ Les differents fichiers sources
 JSON
 ^^^^
 
-To use the SerDe, specify the fully qualified class name `org.apache.hive.hcatalog.data.JsonSerDe`, for example:
+To use the SerDe, specify the fully qualified class name ``org.apache.hive.hcatalog.data.JsonSerDe``, for example:
 
-** Create table, specify CSV properies**
+**Create table, specify CSV properies**
 
 .. code-block:: yaml
 
